@@ -5,13 +5,13 @@ defmodule ExProsemirror.MixProject do
     [
       app: :ex_prosemirror,
       version: "0.5.4",
-      elixir: "~> 1.11",
+      elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
 
       # ExDoc
       name: "ExProsemirror",
-      source_url: "https://github.com/Omerlo-Technologies/ex_prosemirror",
+      source_url: "https://github.com/GrassHopper42/ex_prosemirror",
       docs: docs()
     ]
   end
